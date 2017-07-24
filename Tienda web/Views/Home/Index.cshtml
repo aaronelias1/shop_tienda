@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="images/banner.jpg" class="img-rounded img-responsive center-block" align="middle" 
+                 alt="Responsive banner" style="max-width: 100%; height: auto; display: block;">
+        </div>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-sm-5">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/Laptop.jpg" class="img-responsive img-rounded center-block"
+                         alt="Responsive banner" style="max-width: 100%; height: auto; display: block;">
+                    <div class="caption">
+                        <h3>Laptop</h3>
+                        <p>...</p>
+                        <p><a [routerLink]="['/categorias',2,'productos']" class="btn btn-primary" role="button">Visitar</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/Consola.jpg" class="img-responsive img-rounded center-block"
+                         alt="Responsive banner" style="max-width: 100%; height: auto; display: block;">
+                    <div class="caption">
+                        <h3>Consola</h3>
+                        <p>...</p>
+                        <p><a [routerLink]="['/categorias',1,'productos']" class="btn btn-primary" role="button">Visitar</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/movil.jpg" class="img-responsive img-rounded center-block"
+                         alt="Responsive banner" style="max-width: 100%; height: auto; display: block;">
+                    <div class="caption">
+                        <h3>Cellular</h3>
+                        <p>...</p>
+                        <p><a [routerLink]="['/categorias',4,'productos']" class="btn btn-primary" role="button">Visitar</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/pc.jpg" class="img-responsive img-rounded center-block"
+                         alt="Responsive banner" style="max-width: 100%; height: auto; display: block;">
+                    <div class="caption">
+                        <h3>PC</h3>
+                        <p>...</p>
+                        <p><a [routerLink]="['/categorias',3,'productos']" class="btn btn-primary" role="button">Visitar</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-sm-4">
+        <img src="images/oferta2.jpg" class="img-responsive center-block"
+             alt="Responsive banner" style="max-width: 100%; height: auto; display: block;">
+    </div>
+    <div class="col-sm-3">
+        <img src="images/vertical.jpg" class="img-responsive center-block"
+             alt="Responsive banner" style="max-width: 100%; height: auto; display: block;">
+    </div>
+</div>
